@@ -1,0 +1,18 @@
+import  java.util.Scanner;
+public class greatertwo {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the no");
+        int a ,b;
+        a = sc.nextInt();
+        b= sc.nextInt();
+        if(a>b)
+        System.out.println("A is greater");
+        else 
+        System.out.println("B is greater");
+
+        
+    }
+
+    
+}
